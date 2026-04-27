@@ -1,10 +1,8 @@
 public class Main {
-    static void main() {
-
-
+    public static void main(String[] args) {
         TitleScreen ts = new TitleScreen();
         ts.init();
-
-
     }
+
+
 }
