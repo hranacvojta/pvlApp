@@ -9,14 +9,14 @@ public class SettingsScreen {
 
 
     public void init() {
-        this.frame.setSize(600, 600);
-        this.frame.setLayout(new BorderLayout());
-        this.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.frame.setLocationRelativeTo(null);
+        frame.setSize(600, 600);
+        frame.setLayout(new BorderLayout());
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setLocationRelativeTo(null);
         JLabel label = new JLabel("PvlApp Settings");
-        this.frame.add(label);
+        frame.add(label);
 
-        this.frame.setVisible(true);
+        frame.setVisible(true);
     }
 
 
