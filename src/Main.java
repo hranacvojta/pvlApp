@@ -1,10 +1,15 @@
-import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
+import java.io.IOException;
+
+import static API.ConnetionManager.PvlConnector.scrape;
+
 public class Main {
-    public static void main(String[] args) {
-        TitleScreen ts = new TitleScreen();
-        ts.init();
+    public static void main(String[] args) throws IOException {
+//        TitleScreen ts = new TitleScreen();
+//        ts.init();
+        Document document = scrape("https://www.pvl.cz/portal/sap/cz/pc/");
+
     }
 }
 //
