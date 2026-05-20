@@ -1,3 +1,5 @@
+package Screens;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
@@ -9,7 +11,7 @@ public class PvlApp {
     private JFrame frame;
 
     public PvlApp() {
-        this.frame = new JFrame("PvlApp");
+        this.frame = new JFrame("Screens.PvlApp");
     }
 
 
