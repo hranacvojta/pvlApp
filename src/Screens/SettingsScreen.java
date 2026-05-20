@@ -1,3 +1,5 @@
+package Screens;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -13,7 +15,7 @@ public class SettingsScreen {
         frame.setLayout(new BorderLayout());
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
-        JLabel label = new JLabel("PvlApp Settings");
+        JLabel label = new JLabel("Screens.PvlApp Settings");
         frame.add(label);
 
         frame.setVisible(true);
