@@ -1,7 +1,2 @@
 package Structure;
-
-public class Metadata {
-    private String actualTime;
-    private String source;
-    private int numberOfStations;
-}
+public record Metadata(String actualTime, int numberOfStations, String source){}
