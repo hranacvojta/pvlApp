@@ -8,9 +8,10 @@ import java.io.IOException;
 
 public class PvlConnector {
 
-//    String url = "https://www.pvl.cz/portal/sap/cz/pc/";
+   static final String urlMain = "https://www.pvl.cz/portal/sap/cz/pc/";
 
     public static Document scrape(String url) throws IOException {
+
         try{
             SSLSocketFactory ssl = SslConfigurator.sslFalseCertif();
 
