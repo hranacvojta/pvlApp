@@ -26,7 +26,7 @@ public class SslConfigurator {
                 return sslContext.getSocketFactory();
 
             } catch (Exception e) {
-                throw new RuntimeException("Nepodařilo se vytvořit SSL hlídače", e);
+                throw new RuntimeException("Creating trust manager failed...", e);
             }
         }
 
