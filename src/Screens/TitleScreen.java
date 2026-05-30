@@ -1,5 +1,7 @@
 package Screens;
 
+import API.ApiThread;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -35,7 +37,7 @@ public class TitleScreen {
 //        this.frame.add(label, BorderLayout.CENTER);
 
         // vytvoreni tlacitka s popiskem "Prejit na mapu"
-        JButton buttonContinueToMap = new JButton("CONTINUE TO MAP");
+        JButton buttonContinueToMap = new JButton("CONTINUE TO BROWSER");
         buttonContinueToMap.setAlignmentX(Component.CENTER_ALIGNMENT);
         buttonContinueToMap.setMaximumSize(new Dimension(350, 50));
         panel.add(Box.createVerticalStrut(200));
@@ -65,8 +67,13 @@ public class TitleScreen {
 
         //na tlacitko pridame reaktant - close onkno jenom schova, ale dispose ho ukonci/vypne
         buttonContinueToMap.addActionListener(e->{
-            this.frame.dispose();
-            new PvlApp().init();
+            if (ApiThread.isAipThreadDone() ==  true) {
+                this.frame.dispose();
+                new BrowserScreen().innit();
+            }else{
+                System.out.println("API hadnt done its job yet...");
+            }
+
         });
 
         //na tlacitko pridame reaktant - close onkno jenom schova, ale dispose ho ukonci/vypne
