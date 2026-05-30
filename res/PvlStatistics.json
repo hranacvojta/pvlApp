@@ -1,0 +1,1193 @@
+{
+  "metadata": {
+    "actualTime": "2026-05-31 01:21:48",
+    "numberOfStations": 148,
+    "source": "https://www.pvl.cz/portal/sap/cz/pc/"
+  },
+  "stations": [
+    {
+      "river": "Blanice (PI)",
+      "place": "LG Bavorov",
+      "height_cm": 71,
+      "flow_m3s": 0.947,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Bechyně",
+      "height_cm": 77,
+      "flow_m3s": 2.042,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Berounka",
+      "place": "LG Beroun B",
+      "height_cm": 83,
+      "flow_m3s": 7.926,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Litavka",
+      "place": "LG Beroun L",
+      "height_cm": 17,
+      "flow_m3s": 0.284,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Litavka",
+      "place": "LG Beroun L-NL",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Blanice (PI)",
+      "place": "LG Blanický mlýn",
+      "height_cm": 28,
+      "flow_m3s": 0.216,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lomnice",
+      "place": "LG Blatná",
+      "height_cm": 5,
+      "flow_m3s": 0.122,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Spůlka",
+      "place": "LG Bohumilice",
+      "height_cm": 84,
+      "flow_m3s": 0.207,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlavka",
+      "place": "LG Bonětice",
+      "height_cm": 1,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Stropnice",
+      "place": "LG Borovany",
+      "height_cm": 37,
+      "flow_m3s": 0.185,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Smutná",
+      "place": "LG Božetice",
+      "height_cm": 80,
+      "flow_m3s": 0.031,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Křemžský potok",
+      "place": "LG Brloh",
+      "height_cm": 14,
+      "flow_m3s": 0.127,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Březí",
+      "height_cm": 35,
+      "flow_m3s": 7.23,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Chlístov",
+      "height_cm": 6,
+      "flow_m3s": 0.84,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Teplá Vltava",
+      "place": "LG Chlum",
+      "height_cm": 35,
+      "flow_m3s": 1.464,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Chvalšinský potok",
+      "place": "LG Chvalšiny",
+      "height_cm": 15,
+      "flow_m3s": 0.179,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Hejlovka",
+      "place": "LG Čakovice",
+      "height_cm": 15,
+      "flow_m3s": 0.058,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Litavka",
+      "place": "LG Čenkov",
+      "height_cm": 12,
+      "flow_m3s": 0.143,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Studená Vltava",
+      "place": "LG Černý Kříž",
+      "height_cm": 16,
+      "flow_m3s": 0.57,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG České Budějovice",
+      "height_cm": 104,
+      "flow_m3s": 8.74,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Polečnice (Kájovský potok)",
+      "place": "LG Český Krumlov",
+      "height_cm": 6,
+      "flow_m3s": 0.177,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Český Šternberk",
+      "height_cm": 101,
+      "flow_m3s": 2.42,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Střela",
+      "place": "LG Čichořice",
+      "height_cm": 15,
+      "flow_m3s": 0.14,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Kocába",
+      "place": "LG Daleké Dušníky",
+      "height_cm": 34,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lomnice",
+      "place": "LG Dolní Ostrovec",
+      "height_cm": 31,
+      "flow_m3s": 0.033,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Zubřina",
+      "place": "LG Domažlice",
+      "height_cm": 20,
+      "flow_m3s": 0.024,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Frahelž",
+      "height_cm": 34,
+      "flow_m3s": 0.651,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Nežárka",
+      "place": "LG Hamr nad Nežárkou",
+      "height_cm": 84,
+      "flow_m3s": 0.931,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG Hamry-V lipách",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Blanice (PI)",
+      "place": "LG Heřmaň",
+      "height_cm": 16,
+      "flow_m3s": 0.795,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Březový potok",
+      "place": "LG Hlupín",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Trnava",
+      "place": "LG Hořepník",
+      "height_cm": 47,
+      "flow_m3s": 0.153,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Červený potok (BE)",
+      "place": "LG Hořovice",
+      "height_cm": 29,
+      "flow_m3s": 0.058,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Zlatý potok (PT)",
+      "place": "LG Hracholusky",
+      "height_cm": 10,
+      "flow_m3s": 0.098,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Klabava",
+      "place": "LG Hrádek u Rokycan",
+      "height_cm": 22,
+      "flow_m3s": 0.214,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Stroupinský potok",
+      "place": "LG Hředle",
+      "height_cm": 19,
+      "flow_m3s": 0.027,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG Janovice nad Úhlavou U",
+      "height_cm": 54,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG jez Kimlíček",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Sázavka",
+      "place": "LG Josefodol",
+      "height_cm": 33,
+      "flow_m3s": 0.079,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Kácov",
+      "height_cm": 70,
+      "flow_m3s": 2.298,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Kamenice",
+      "place": "LG Kamenice nad Lipou",
+      "height_cm": 26,
+      "flow_m3s": 0.028,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Malše",
+      "place": "LG Kaplice",
+      "height_cm": 8,
+      "flow_m3s": 0.307,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Otava",
+      "place": "LG Katovice",
+      "height_cm": 39,
+      "flow_m3s": 3.393,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Kazdovna",
+      "height_cm": 36,
+      "flow_m3s": 0.116,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG Klatovy-Tajanov",
+      "height_cm": 33,
+      "flow_m3s": 1.025,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Čerchovka (Černý potok)",
+      "place": "LG Klenčí",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Klenovice",
+      "height_cm": 46,
+      "flow_m3s": 2.88,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Dračice (Reißbach)",
+      "place": "LG Klikov",
+      "height_cm": 31,
+      "flow_m3s": 0.045,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mže",
+      "place": "LG Kočov",
+      "height_cm": 10,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Ostružná",
+      "place": "LG Kolínec",
+      "height_cm": 24,
+      "flow_m3s": 0.245,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Nežárka",
+      "place": "LG Lásenice",
+      "height_cm": 31,
+      "flow_m3s": 0.828,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Teplá Vltava",
+      "place": "LG Lenora",
+      "height_cm": 37,
+      "flow_m3s": 0.906,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Radbuza",
+      "place": "LG Lhota",
+      "height_cm": 31,
+      "flow_m3s": 0.751,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Berounka",
+      "place": "LG Liblín",
+      "height_cm": 27,
+      "flow_m3s": 6.87,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Černá",
+      "place": "LG Líčov",
+      "height_cm": 28,
+      "flow_m3s": 0.432,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Loděnice (Kačák)",
+      "place": "LG Loděnice",
+      "height_cm": 38,
+      "flow_m3s": 0.037,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Blanice (BN)",
+      "place": "LG Louňovice",
+      "height_cm": 120,
+      "flow_m3s": 0.024,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Loděnice (Kačák)",
+      "place": "LG Malé Kyšice- Poteplí",
+      "height_cm": 9,
+      "flow_m3s": 0.065,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Manětínský potok",
+      "place": "LG Manětín",
+      "height_cm": 4,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Čerchovka (Černý potok)",
+      "place": "LG Meclov",
+      "height_cm": 20,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Merklínka",
+      "place": "LG Merklín",
+      "height_cm": 5,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Milevský potok",
+      "place": "LG Milevsko",
+      "height_cm": 54,
+      "flow_m3s": 0.013,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Jankovský potok",
+      "place": "LG Milotice-Kletečná",
+      "height_cm": 31,
+      "flow_m3s": 0.06,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Šlapanka",
+      "place": "LG Mírovka",
+      "height_cm": 60,
+      "flow_m3s": 0.296,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Nová řeka",
+      "place": "LG Mláka-Novosedly",
+      "height_cm": 29,
+      "flow_m3s": 0.15,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vydra",
+      "place": "LG Modrava",
+      "height_cm": 47,
+      "flow_m3s": 0.8,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Volyňka",
+      "place": "LG Nemětice",
+      "height_cm": 59,
+      "flow_m3s": 0.564,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Želivka",
+      "place": "LG Nesměřice",
+      "height_cm": 19,
+      "flow_m3s": 0.453,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Nespeky",
+      "height_cm": 38,
+      "flow_m3s": 2.755,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Bezdrevský potok",
+      "place": "LG Netolice",
+      "height_cm": 75,
+      "flow_m3s": 0.237,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Třemošná",
+      "place": "LG Nevřeň",
+      "height_cm": 27,
+      "flow_m3s": 0.003,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Klabava",
+      "place": "LG Nová Huť",
+      "height_cm": 22,
+      "flow_m3s": 0.517,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Nová Ves nad Lužnicí",
+      "height_cm": 74,
+      "flow_m3s": 1.626,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Polečnice (Kájovský potok)",
+      "place": "LG Novosedly",
+      "height_cm": 35,
+      "flow_m3s": 0.192,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Radbuza",
+      "place": "LG odtok VD České Údolí",
+      "height_cm": 33,
+      "flow_m3s": 1.433,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Botič",
+      "place": "LG odtok VD Hostivař",
+      "height_cm": 25,
+      "flow_m3s": 0.081,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mže",
+      "place": "LG odtok VD Hracholusky",
+      "height_cm": 48,
+      "flow_m3s": 2.462,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Stropnice",
+      "place": "LG odtok VD Humenice",
+      "height_cm": 13,
+      "flow_m3s": 0.107,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Blanice (PI)",
+      "place": "LG odtok VD Husinec",
+      "height_cm": 21,
+      "flow_m3s": 0.743,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Rokytka",
+      "place": "LG odtok VD Kyjský rybník",
+      "height_cm": 20,
+      "flow_m3s": 0.056,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mže",
+      "place": "LG odtok VD Lučina",
+      "height_cm": 45,
+      "flow_m3s": 0.51,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG odtok VD Nýrsko",
+      "height_cm": 13,
+      "flow_m3s": 0.694,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG odtok VD Orlík",
+      "height_cm": 409,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG odtok VD Slapy",
+      "height_cm": 454,
+      "flow_m3s": 42.91,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG odtok VD Vrané (PB pod VE)",
+      "height_cm": 401,
+      "flow_m3s": 40.58,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Střela",
+      "place": "LG odtok VD Žlutice",
+      "height_cm": 22,
+      "flow_m3s": 0.22,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Hamerský potok (JH)",
+      "place": "LG Oldříš-Blažejov",
+      "height_cm": 16,
+      "flow_m3s": 0.195,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Stropnice",
+      "place": "LG Pašínovice-Komářice",
+      "height_cm": 3,
+      "flow_m3s": 0.146,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG Pilař-Majdalena",
+      "height_cm": 112,
+      "flow_m3s": 0.521,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Otava",
+      "place": "LG Písek",
+      "height_cm": 41,
+      "flow_m3s": 4.4,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Hamerský potok (TC)",
+      "place": "LG Planá (u Mariánských Lázní)",
+      "height_cm": 26,
+      "flow_m3s": 0.094,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Střela",
+      "place": "LG Plasy",
+      "height_cm": 18,
+      "flow_m3s": 0.291,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Berounka",
+      "place": "LG Plzeň-Bílá Hora",
+      "height_cm": 89,
+      "flow_m3s": 4.57,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Berounka",
+      "place": "LG Plzeň-Doubravka",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Úslava",
+      "place": "LG Plzeň-Koterov",
+      "height_cm": 12,
+      "flow_m3s": 0.302,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Blanice (PI)",
+      "place": "LG Podedvorský mlýn",
+      "height_cm": 33,
+      "flow_m3s": 0.512,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Pohledští Dvořáci - Havlíčkův Brod",
+      "height_cm": 48,
+      "flow_m3s": 0.386,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Malše",
+      "place": "LG Pořešín",
+      "height_cm": 20,
+      "flow_m3s": 1.051,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Želivka",
+      "place": "LG Poříčí",
+      "height_cm": 43,
+      "flow_m3s": 1.27,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úslava",
+      "place": "LG Prádlo",
+      "height_cm": 31,
+      "flow_m3s": 0.049,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Praha - Malá Chuchle",
+      "height_cm": 46,
+      "flow_m3s": 52.52,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG Přeštice",
+      "height_cm": 9,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Bělá (PE)",
+      "place": "LG Radětín",
+      "height_cm": 14,
+      "flow_m3s": 0.069,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mastník",
+      "place": "LG Radíč",
+      "height_cm": 90,
+      "flow_m3s": 0.048,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Blanice (BN)",
+      "place": "LG Radonice-Zdebudeves",
+      "height_cm": 113,
+      "flow_m3s": 0.181,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Smutná",
+      "place": "LG Rataje",
+      "height_cm": 63,
+      "flow_m3s": 0.055,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Otava",
+      "place": "LG Rejštejn",
+      "height_cm": 54,
+      "flow_m3s": 2.73,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Nežárka",
+      "place": "LG Rodvínov",
+      "height_cm": 13,
+      "flow_m3s": 0.223,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Malše",
+      "place": "LG Roudné",
+      "height_cm": 9,
+      "flow_m3s": 1.174,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Malše",
+      "place": "LG Římov",
+      "height_cm": 37,
+      "flow_m3s": 1.011,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Sázava u Žďáru",
+      "height_cm": 39,
+      "flow_m3s": 0.342,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Chotýšanka",
+      "place": "LG Slověnice",
+      "height_cm": 36,
+      "flow_m3s": 0.023,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Chotýšanka",
+      "place": "LG Smikovský rybník",
+      "height_cm": 2,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mochtínský potok",
+      "place": "LG Sobětice",
+      "height_cm": 30,
+      "flow_m3s": 0.033,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Spolí",
+      "height_cm": 103,
+      "flow_m3s": 8.436,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Lužnice (Lainsitz)",
+      "place": "LG St. Martin",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Radbuza",
+      "place": "LG Staňkov",
+      "height_cm": 25,
+      "flow_m3s": 0.741,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Křemelná",
+      "place": "LG Stodůlky",
+      "height_cm": 30,
+      "flow_m3s": 1.43,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Otava",
+      "place": "LG Strakonice",
+      "height_cm": 43,
+      "flow_m3s": 4.102,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Borovský potok",
+      "place": "LG Stříbrné Hory",
+      "height_cm": 33,
+      "flow_m3s": 0.051,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Mže",
+      "place": "LG Stříbro M",
+      "height_cm": 39,
+      "flow_m3s": 1.259,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlavka",
+      "place": "LG Stříbro U",
+      "height_cm": 14,
+      "flow_m3s": 0.042,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Volyňka",
+      "place": "LG Sudslavice",
+      "height_cm": 34,
+      "flow_m3s": 0.195,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Otava",
+      "place": "LG Sušice",
+      "height_cm": 27,
+      "flow_m3s": 3.48,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Kosový potok",
+      "place": "LG Svahy-Třebel",
+      "height_cm": 9,
+      "flow_m3s": 0.199,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Světlá nad Sázavou",
+      "height_cm": 22,
+      "flow_m3s": 1.164,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úslava",
+      "place": "LG Šťáhlavy",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Kocába",
+      "place": "LG Štěchovice",
+      "height_cm": 35,
+      "flow_m3s": 0.111,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úhlava",
+      "place": "LG Štěnovice",
+      "height_cm": 36,
+      "flow_m3s": 1.34,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Radbuza",
+      "place": "LG Tasnovice",
+      "height_cm": 44,
+      "flow_m3s": 0.22,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Svinenský potok",
+      "place": "LG Trhové Sviny",
+      "height_cm": 10,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úterský potok",
+      "place": "LG Trpísty",
+      "height_cm": 5,
+      "flow_m3s": 0.035,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Černovický potok",
+      "place": "LG Tučapy",
+      "height_cm": 33,
+      "flow_m3s": 0.007,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Chotovínský potok",
+      "place": "LG Úraz",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 1
+    },
+    {
+      "river": "Úterský potok",
+      "place": "LG Úterý",
+      "height_cm": 0,
+      "flow_m3s": 0.0,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Skalice",
+      "place": "LG Varvažov",
+      "height_cm": 79,
+      "flow_m3s": 0.181,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Bakovský potok",
+      "place": "LG Velvary",
+      "height_cm": 22,
+      "flow_m3s": 0.033,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Vraňany",
+      "height_cm": 3,
+      "flow_m3s": 51.02,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Vyšší Brod",
+      "height_cm": 62,
+      "flow_m3s": 6.83,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Skalice",
+      "place": "LG Zadní Poříčí",
+      "height_cm": 42,
+      "flow_m3s": 0.06,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Vltava",
+      "place": "LG Zátoň",
+      "height_cm": 42,
+      "flow_m3s": 7.375,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Berounka",
+      "place": "LG Zbečno",
+      "height_cm": 149,
+      "flow_m3s": 4.79,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Zruč nad Sázavou",
+      "height_cm": 68,
+      "flow_m3s": 1.456,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Sázava",
+      "place": "LG Žďár nad Sázavou",
+      "height_cm": 48,
+      "flow_m3s": 0.179,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Úslava",
+      "place": "LG Ždírec",
+      "height_cm": 17,
+      "flow_m3s": 0.303,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Trnava",
+      "place": "LG Želiv - Kocanda",
+      "height_cm": 6,
+      "flow_m3s": 0.367,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Želivka",
+      "place": "LG Želiv-Vřesník",
+      "height_cm": 64,
+      "flow_m3s": 0.413,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    },
+    {
+      "river": "Žirovnice",
+      "place": "LG Žirovnice",
+      "height_cm": 8,
+      "flow_m3s": 0.087,
+      "waterTemperature_c": 0.0,
+      "floodActivityRate": 0
+    }
+  ]
+}
