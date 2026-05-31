@@ -5,6 +5,10 @@ import API.ApiThread;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Represents the initial title screen (main menu) of the application.
+ * Provides navigation buttons to access the browser, settings, favorites, or close the application.
+ */
 public class TitleScreen {
 
 
@@ -12,11 +16,19 @@ public class TitleScreen {
     private JFrame frame;
 
     // konstruktor ve kterem vytvarime Jframe
+    /**
+     * Constructs the TitleScreen and initializes the main JFrame.
+     */
     public TitleScreen(){
         frame = new JFrame("PvlAppTitleScreen");
     }
 
 
+    /**
+     * Initializes the graphical user interface for the title screen.
+     * Sets up the layout, creates navigation buttons, and defines their action listeners.
+     * Ensures navigation only occurs if background API tasks are completed.
+     */
     public void init() {
         this.frame.setSize(600, 600);
         JPanel panel = new JPanel();

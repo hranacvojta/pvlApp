@@ -11,14 +11,26 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Represents the screen that displays the user's favorite river stations.
+ * It reads the saved favorites from a local text file and cross-references them
+ * with the main JSON data to display a filtered table.
+ */
 public class FavoritesScreen {
 
     private JFrame frame;
 
+    /**
+     * Constructs the FavoritesScreen and initializes the main JFrame.
+     */
     public FavoritesScreen(){
         frame = new JFrame("PvlAppFavoritesScreen");
     }
 
+    /**
+     * Initializes the graphical user interface components, sets up the window layout,
+     * creates the data table for displaying favorites, and makes the window visible.
+     */
     public void init() {
         frame.setSize(600, 600);
         frame.setLayout(new BorderLayout());
@@ -46,6 +58,12 @@ public class FavoritesScreen {
         frame.setVisible(true);
     }
 
+    /**
+     * Loads the favorite station names from a text file and populates the given table model
+     * with matching station data retrieved from the main JSON statistics file.
+     *
+     * @param model The DefaultTableModel of the table to be populated.
+     */
     private void loadFavoritesFromJson(DefaultTableModel model) {
         File favFile = new File("res/favorites.txt");
 

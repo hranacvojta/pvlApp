@@ -18,10 +18,19 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+ * Utility class responsible for extracting and parsing station data from the PVL HTML document,
+ * and exporting the compiled data into a formatted JSON file.
+ */
 public class ContentExtractor {
 
-
+    /**
+     * Scrapes the specified URL, extracts river station metrics from hidden HTML input fields,
+     * wraps the parsed data into structural objects, and saves the result as a JSON file.
+     *
+     * @param url The target URL to scrape data from.
+     * @throws IOException If an error occurs during file writing.
+     */
     public static void extractContent(String url) throws IOException {
 //        System.out.println("start");
 //        long startTime = System.nanoTime();
@@ -97,6 +106,13 @@ public class ContentExtractor {
 //        System.out.println(duration);
     }
 
+    /**
+     * Safely parses a string into a double, replacing commas with dots.
+     * Returns 0.0 if the string is null, empty, contains a dash, or cannot be parsed.
+     *
+     * @param text The string to parse.
+     * @return The parsed double value, or 0.0 as a fallback.
+     */
     private static double securedParsingDouble(String text) {
         if (text == null || text.trim().isEmpty() || text.contains("-")) {
             return 0.0;
@@ -108,7 +124,13 @@ public class ContentExtractor {
         }
     }
 
-
+    /**
+     * Safely parses a string into an integer.
+     * Returns 0 if the string is null, empty, contains a dash, or cannot be parsed.
+     *
+     * @param text The string to parse.
+     * @return The parsed integer value, or 0 as a fallback.
+     */
     private static int securedParsingInt(String text) {
         if (text == null || text.trim().isEmpty() || text.contains("-")) {
             return 0;
@@ -120,11 +142,15 @@ public class ContentExtractor {
         }
     }
 
+    /**
+     * Extracts and splits the 'value' attribute of an HTML element using the pipe ('|') character.
+     *
+     * @param input The HTML element to parse.
+     * @return An array of string parts separated by the pipe character.
+     */
     private static String[] inputValueParser(Element input) {
         String origValue = input.attr("value");
         return origValue.split("\\|");
     }
-
-
 
 }

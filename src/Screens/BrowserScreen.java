@@ -13,15 +13,28 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
 import java.util.List;
+
+/**
+ * Represents the browser screen of the application.
+ * Displays a searchable table of river stations loaded from a JSON file
+ * and allows users to add specific stations to their favorites.
+ */
 public class BrowserScreen {
 
     private JFrame frame;
 
-
+    /**
+     * Constructs the BrowserScreen and initializes the main JFrame.
+     */
     public BrowserScreen() {
         this.frame = new JFrame("PvlAppBrowserScreen");
     }
 
+    /**
+     * Initializes and configures all GUI components, including the layout,
+     * search bar, dynamic table with a sorter/filter, and the favorite button.
+     * Finally, makes the frame visible.
+     */
     public void innit() {
         this.frame.setSize(600, 600);
         JPanel panel = new JPanel();
@@ -86,11 +99,11 @@ public class BrowserScreen {
         loadFromJson(model);
 
         button.addActionListener(e -> {
-                    int selectedRow = table.getSelectedRow();
-                    if (selectedRow == -1) {
-                        JOptionPane.showMessageDialog(frame, "Please select a station from the table first.", "Notice", JOptionPane.WARNING_MESSAGE);
-                        return;
-                    }
+            int selectedRow = table.getSelectedRow();
+            if (selectedRow == -1) {
+                JOptionPane.showMessageDialog(frame, "Please select a station from the table first.", "Notice", JOptionPane.WARNING_MESSAGE);
+                return;
+            }
 
             int modelRow = table.convertRowIndexToModel(selectedRow);
 
@@ -106,7 +119,11 @@ public class BrowserScreen {
 
     }
 
-
+    /**
+     * Loads station data from the local JSON file and populates the table model.
+     *
+     * @param model The DefaultTableModel of the table to be populated.
+     */
     private static void loadFromJson(DefaultTableModel model) {
         try (FileReader reader = new FileReader("res/PvlStatistics.json")) {
 
@@ -135,7 +152,12 @@ public class BrowserScreen {
 
     }
 
-
+    /**
+     * Saves the selected station's name to the favorites text file.
+     * Prevents duplicate entries from being added.
+     *
+     * @param place The name of the station (place) to add to favorites.
+     */
     private void saveFavorite(String place) {
         File file = new File("res/favorites.txt");
 
