@@ -37,11 +37,11 @@ public class TitleScreen {
 //        this.frame.add(label, BorderLayout.CENTER);
 
         // vytvoreni tlacitka s popiskem "Prejit na mapu"
-        JButton buttonContinueToMap = new JButton("CONTINUE TO BROWSER");
-        buttonContinueToMap.setAlignmentX(Component.CENTER_ALIGNMENT);
-        buttonContinueToMap.setMaximumSize(new Dimension(350, 50));
-        panel.add(Box.createVerticalStrut(200));
-        panel.add(buttonContinueToMap);
+        JButton buttonContinueToBrowser = new JButton("CONTINUE TO BROWSER");
+        buttonContinueToBrowser.setAlignmentX(Component.CENTER_ALIGNMENT);
+        buttonContinueToBrowser.setMaximumSize(new Dimension(350, 50));
+        panel.add(Box.createVerticalStrut(170));
+        panel.add(buttonContinueToBrowser);
 
 
         // vytvoreni tlacitka s popiskem "nastaveni"
@@ -59,6 +59,14 @@ public class TitleScreen {
         panel.add(Box.createVerticalStrut(5));
         panel.add(buttonClose);
 
+
+        JButton buttonFavorites = new  JButton("FAVORITES");
+        buttonFavorites.setAlignmentX(Component.CENTER_ALIGNMENT);
+        buttonFavorites.setMaximumSize(new Dimension(350, 50));
+        panel.add(Box.createVerticalStrut(5));
+        panel.add(buttonFavorites);
+
+
         frame.add(panel);
 
 
@@ -66,7 +74,7 @@ public class TitleScreen {
 
 
         //na tlacitko pridame reaktant - close onkno jenom schova, ale dispose ho ukonci/vypne
-        buttonContinueToMap.addActionListener(e->{
+        buttonContinueToBrowser.addActionListener(e->{
             if (ApiThread.isAipThreadDone() ==  true) {
                 this.frame.dispose();
                 new BrowserScreen().innit();
@@ -80,6 +88,11 @@ public class TitleScreen {
         buttonSettings.addActionListener(e->{
             this.frame.dispose();
             new SettingsScreen().init();
+        });
+
+        buttonFavorites.addActionListener(e->{
+            this.frame.dispose();
+            new FavoritesScreen().init();
         });
 
 
